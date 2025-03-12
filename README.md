@@ -9,7 +9,7 @@ This project uses a U-Net deep learning model to perform semantic segmentation o
 ### 1. **Data**
    - Multispectral satellite images (RGB, NDVI, slope, elevation) in HDF5 format.
    - Contains images and ground truth segmentation masks.
-
+   - Data [https://www.kaggle.com/datasets/tekbahadurkshetri/landslide4sense]
 ### 2. **Preprocessing**
    - Images are normalized, and NDVI is calculated from the red and near-infrared bands.
    - Dataset is split into training and validation sets.
